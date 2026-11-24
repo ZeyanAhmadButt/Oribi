@@ -202,10 +202,16 @@ ruff check .
 mypy oribi
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [DESIGN.md](DESIGN.md) for architecture notes. To run the end to end example:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [DESIGN.md](DESIGN.md) for architecture notes. To run the end-to-end profiling example:
 
 ```bash
 python -m examples.quickstart
+```
+
+For a small profile-to-visualization workflow, install Matplotlib with `python -m pip install matplotlib`, then run:
+
+```bash
+python -m examples.visualize_profiled_data
 ```
 
 ## Releases
